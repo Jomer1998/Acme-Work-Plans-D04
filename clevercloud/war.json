@@ -1,0 +1,15 @@
+{
+   "build": {
+        "type": "maven",
+        "goal": "clean compile package"
+   },
+   "deploy": {
+        "container": "TOMCAT8",
+        "war": [{
+            "file": "target/Acme-Work-Plans-21.6.war",
+            "context": "/Acme-Work-Plans",
+            "port": 443
+        }]
+    }
+}
+
