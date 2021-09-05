@@ -17,12 +17,18 @@ This is Acme Work-Plans, the second project of Group 10 for Design & Testing 2 s
 (September evaluation).
 
 * GitHub repository: https://github.com/Jomer1998/Acme-Work-Plans-D04
-* GitHub release: https://github.com/Jomer1998/Acme-Work-Plans-D04/releases/tag/v1.2
+* GitHub release: https://github.com/Jomer1998/Acme-Work-Plans-D04/releases/tag/v1.2.1
 
 * Apunte sobre Clever Cloud: debido a un error, en la aplicación desplegada las URLs que contienen
 "/manager" provocan errores. Para solucionarlo, se modifica el campo 'context' del war.json
 y para probar la aplicación desplegada habrá que añadir a la URL que proporciona Clever Cloud
 lo siguiente: "/Acme-Planner".
+
+* Interpretaciones y consideraciones referentes al cuarto entregable:
+	- Debido a que las cuentas de GitHub creadas (en un primer momento) para desplegar la
+	aplicación en Clever Cloud han sido marcadas como spam (impidiendo por ello el acceso
+	a Clever Cloud con dichas cuentas), se ha repetido el despliegue únicamente de la
+	entrega D04 con la cuenta utilizada para subir las implementaciones del código.
 
 * Interpretaciones y consideraciones referentes al tercer entregable:
 	- Se ha modificado el valor del atributo moment en los shouts "shout01" y "shout05" en el
